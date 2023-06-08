@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true"
+          name="/Users/swarupamkumar/IdeaProjects/EndToEndDemo/src/test/java/com/test/demo/testrunner/OrangeHRMTestRunner.java">
+        <classes>
+            <class name="com.test.demo.testrunner.OrangeHRMTestRunner">
+                <methods>
+                    <include name="doLoginUser"/>
+                    <include name="createEmployee"/>
+                    <include name="searchEmployee"/>
+                    <include name="deleteCreatedEmp"/>
+                    <include name="logOutUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
